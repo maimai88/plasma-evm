@@ -86,6 +86,7 @@ type Config struct {
 
 	// Plasma options
 	Operator           accounts.Account
+	OperatorAddr       common.Address
 	RootChainURL       string
 	RootChainContract  common.Address
 	RootChainNetworkID uint64
